@@ -44,10 +44,6 @@ for ll=1:8
     t=0;
     A=sparse(A);
 
-    % The CPU time stars once all the initial values have been
-    % calculated
-    tstart=tic;
-
     % For the local error r=1. For the global one, r=n
     for r=1:n
 
@@ -128,9 +124,6 @@ for ll=1:8
         t=t+k;   
     end
     
-    % CPU time comparison finishes
-    telapsed=toc(tstart)
-
     % Sol contains the exact solution at time T
     sol=zeros(N,1);
 
