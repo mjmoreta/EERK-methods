@@ -3,7 +3,7 @@ function [w, stats] = phipmM(t, A, M, u, tol, symm, m)
 % J. Niesen and W. M. Wright, Algorithm 919: A Krylov Subspace Algorithm for 
 % Evaluating the ϕ-Functions Appearing in Exponential Integrators, ACM
 % Trans. Math. Software 38, art 22 (2012),
-% available at http://www1.maths.leeds.ac.uk/jitse/software.html
+% available at https://jitseniesen.github.io/software/
 
 % PHIPMM - Evaluates a linear combinaton of the phi functions
 %         evaluated at tM^{-1}A acting on vectors from u, that is 
