@@ -1,4 +1,4 @@
-function [w, stats] = phipmM4points(t, J, u, tol, symm, m)
+function [w, stats] = phipmM9points(t, J, u, tol, symm, m)
 % This program is based on program phipm:
 % J. Niesen and W. M. Wright, Algorithm 919: A Krylov Subspace Algorithm for 
 % Evaluating the ϕ-Functions Appearing in Exponential Integrators, ACM
